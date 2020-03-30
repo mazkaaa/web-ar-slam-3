@@ -45,7 +45,7 @@ const placegroundSceneModule = () => {
 		console.log(`placing at ${pointX}, ${pointZ}`)
 		loader.load(
 			modelFile,
-			(gltf) => { animateIn(gltf, pointX, pointZ, Math.random() * 360) }, 
+			(gltf) => {animateIn(gltf, pointX, pointZ, Math.random() * 360)}, 
 			(xhr) => {console.log(`${(xhr.loaded / xhr.total * 100 )}% loaded`)},
 			(error) => {console.log('An error happened')}
 		)

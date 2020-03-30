@@ -37,13 +37,14 @@ const placegroundSceneModule = () => {
 		new TWEEN.Tween(scale)
 			.to(endingScale, animationMillis)
 			.easing(TWEEN.Easing.Elastic.Out)
-			.onUpdate(() => { model.scene.scale.set(scale.x, scale.y, scale.z)})
+			.onUpdate(() => {model.scene.scale.set(scale.x, scale.y, scale.z)})
 			.start()
 	}
 
 	const placeObject = (pointX, pointZ) => {
 		console.log(`placing at ${pointX}, ${pointZ}`)
 		loader.load(
+			modelFile,
 			(gltf) => { animateIn(gltf, pointX, pointZ, Math.random() * 360) }, 
 			(xhr) => {console.log(`${(xhr.loaded / xhr.total * 100 )}% loaded`)},
 			(error) => {console.log('An error happened')}

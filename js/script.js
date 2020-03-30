@@ -1,5 +1,5 @@
 const placegroundSceneModule = () => {
-	const modelFile = 'models/tree.glb'
+	const modelFile = 'tree.glb'
 	const startingScale = new THREE.Vector3(0.0001, 0.0001, 0.0001)
 	const endingScale = new THREE.Vector3(0.002, 0.002, 0.002)
 	const animationMillis = 600

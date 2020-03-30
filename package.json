@@ -1,0 +1,22 @@
+{
+  "name": "web-ar-slam-3",
+  "version": "1.0.0",
+  "description": "Polished interaction Augmented Reality SLAM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazkaaa/web-ar-slam-3.git"
+  },
+  "author": "mazkaaa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mazkaaa/web-ar-slam-3/issues"
+  },
+  "homepage": "https://github.com/mazkaaa/web-ar-slam-3#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}

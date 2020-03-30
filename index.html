@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
         <!---<script src="https://cdn.8thwall.com/web/aframe/8frame-0.8.2.min.js"></script>
         <script defer src="https://cdn.8thwall.com/web/aframe/aframe-animation-component-5.1.2.min.js"></script>--->
         <script async src="https://apps.8thwall.com/xrweb?appKey=3PGNOU8cVyVRhOC3S8HvZ7xKuI90CdK16uVVIIxZaOcm3Wp6ksBT7Xj23KoxeBOzdDl25f"></script>
@@ -28,8 +29,17 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <canvas id="camerafeed">
-        </canvas>
+        
+        <div class="canvas-container">
+            <canvas id="camerafeed"></canvas>
+            <div class="button-container align-bottom">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-secondary">Tree</button>
+                    <button type="button" class="btn btn-secondary">Table</button>
+                    <button type="button" class="btn btn-secondary">Chair</button>
+                </div>
+            </div>
+        </div>
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

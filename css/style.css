@@ -1,0 +1,11 @@
+.canvas-container{
+    position: relative;
+}
+#camerafeed{
+    position: absolute;
+}
+.button-container{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
